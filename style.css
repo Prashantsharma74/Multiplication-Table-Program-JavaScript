@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("http://24.media.tumblr.com/tumblr_lzoga0k15J1r071oyo1_500.gif");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+section {
+    padding: 20px;
+    height: max-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section .x-1 {
+    position: relative;
+    padding: 40px;
+    height: 65vh;
+    width: 49%;
+    background-color: orange;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+section .x-1 span {
+    width: 100%;
+}
+
+section .x-1 h2 {
+    font-size: 40px;
+}
+
+section .x-1 p {
+    font-size: 40px;
+}
+
+section .x-1 span input {
+    padding: 0px 15px;
+    width: 100%;
+    height: 40px;
+}
+
+
+section .x-1 button {
+    height: 40px;
+    width: 25%;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#btn:hover {
+    background-color: #0966A3;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+section .x-2 {
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    height: max-content;
+    width: 49%;
+}
+
+section ul li {
+    list-style: none;
+    background-color: #0966A3;
+}
